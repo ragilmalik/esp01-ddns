@@ -1,0 +1,36 @@
+# Arduino build files
+*.ino.bin
+*.ino.elf
+*.ino.map
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compiled files
+*.o
+*.a
+
+# User configuration (contains sensitive credentials)
+# Note: config.h is tracked as a template, but users should not commit their actual credentials
+# Consider creating config_user.h for actual use
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
